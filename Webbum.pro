@@ -4,11 +4,13 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui winextras
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TEMPLATE = app
+
+win32:RC_ICONS += $$PWD/icon64.ico
 
 win32
 {

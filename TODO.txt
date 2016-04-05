@@ -1,0 +1,9 @@
+- Log encoding strings and possibly ffmpeg output locally for easier diagnostics
+- Fix seeking with text subtitles (if possible)
+- Finetune encoding settings
+- Implement Avisynth input support
+- Implement encoding by frame number
+- Parse ffmpeg output and bind it to the progress bar
+- Preview frames?
+- Sanic speed encoding mode
+- Setting presets
